@@ -1,0 +1,6 @@
+framework module Pods_waterfalldemo {
+  umbrella header "Pods-waterfalldemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

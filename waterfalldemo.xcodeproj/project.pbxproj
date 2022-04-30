@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50F27BDC3684B7605DD5E01C /* Pods_waterfalldemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BAA6696729F20D3869EFA6 /* Pods_waterfalldemo.framework */; };
 		F48CC19C281D18CA00449C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC19B281D18CA00449C93 /* AppDelegate.swift */; };
 		F48CC19E281D18CA00449C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC19D281D18CA00449C93 /* SceneDelegate.swift */; };
-		F48CC1A0281D18CA00449C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC19F281D18CA00449C93 /* ViewController.swift */; };
 		F48CC1A3281D18CA00449C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48CC1A1281D18CA00449C93 /* Main.storyboard */; };
 		F48CC1A5281D18CE00449C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48CC1A4281D18CE00449C93 /* Assets.xcassets */; };
 		F48CC1A8281D18CE00449C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48CC1A6281D18CE00449C93 /* LaunchScreen.storyboard */; };
+		F48CC1B1281D1AD900449C93 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F48CC1B0281D1AD900449C93 /* data.json */; };
+		F48CC1B3281D1B0000449C93 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC1B2281D1B0000449C93 /* ReadData.swift */; };
+		F48CC1B6281D1B6500449C93 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC1B5281D1B6500449C93 /* CollectionViewController.swift */; };
+		F48CC1B8281D1BAA00449C93 /* ImageItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC1B7281D1BAA00449C93 /* ImageItemCell.swift */; };
+		F48CC1BB281D1C8800449C93 /* ImageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC1BA281D1C8800449C93 /* ImageClass.swift */; };
+		F48CC1BD281D246500449C93 /* BlurHashDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CC1BC281D246500449C93 /* BlurHashDecode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27D86F142B4BE62351F42BE7 /* Pods-waterfalldemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterfalldemo.release.xcconfig"; path = "Target Support Files/Pods-waterfalldemo/Pods-waterfalldemo.release.xcconfig"; sourceTree = "<group>"; };
+		48BAA6696729F20D3869EFA6 /* Pods_waterfalldemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterfalldemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97727A4BA058FFF2BF5A4DC /* Pods-waterfalldemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterfalldemo.debug.xcconfig"; path = "Target Support Files/Pods-waterfalldemo/Pods-waterfalldemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F48CC198281D18CA00449C93 /* waterfalldemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterfalldemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48CC19B281D18CA00449C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F48CC19D281D18CA00449C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F48CC19F281D18CA00449C93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F48CC1A2281D18CA00449C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F48CC1A4281D18CE00449C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F48CC1A7281D18CE00449C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48CC1A9281D18CE00449C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48CC1B0281D1AD900449C93 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F48CC1B2281D1B0000449C93 /* ReadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
+		F48CC1B5281D1B6500449C93 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		F48CC1B7281D1BAA00449C93 /* ImageItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemCell.swift; sourceTree = "<group>"; };
+		F48CC1BA281D1C8800449C93 /* ImageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClass.swift; sourceTree = "<group>"; };
+		F48CC1BC281D246500449C93 /* BlurHashDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurHashDecode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F27BDC3684B7605DD5E01C /* Pods_waterfalldemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		242E84C0C45CBAB4A76AE189 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D97727A4BA058FFF2BF5A4DC /* Pods-waterfalldemo.debug.xcconfig */,
+				27D86F142B4BE62351F42BE7 /* Pods-waterfalldemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5DDF211AB07B00B87FA7874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BAA6696729F20D3869EFA6 /* Pods_waterfalldemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F48CC18F281D18CA00449C93 = {
 			isa = PBXGroup;
 			children = (
+				F48CC1B9281D1C6F00449C93 /* DataClass */,
+				F48CC1B4281D1B4B00449C93 /* Views */,
+				F48CC1AF281D1AB300449C93 /* Data */,
 				F48CC19A281D18CA00449C93 /* waterfalldemo */,
 				F48CC199281D18CA00449C93 /* Products */,
+				242E84C0C45CBAB4A76AE189 /* Pods */,
+				A5DDF211AB07B00B87FA7874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,39 @@
 			children = (
 				F48CC19B281D18CA00449C93 /* AppDelegate.swift */,
 				F48CC19D281D18CA00449C93 /* SceneDelegate.swift */,
-				F48CC19F281D18CA00449C93 /* ViewController.swift */,
 				F48CC1A1281D18CA00449C93 /* Main.storyboard */,
 				F48CC1A4281D18CE00449C93 /* Assets.xcassets */,
 				F48CC1A6281D18CE00449C93 /* LaunchScreen.storyboard */,
 				F48CC1A9281D18CE00449C93 /* Info.plist */,
 			);
 			path = waterfalldemo;
+			sourceTree = "<group>";
+		};
+		F48CC1AF281D1AB300449C93 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F48CC1B0281D1AD900449C93 /* data.json */,
+				F48CC1B2281D1B0000449C93 /* ReadData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F48CC1B4281D1B4B00449C93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F48CC1B5281D1B6500449C93 /* CollectionViewController.swift */,
+				F48CC1B7281D1BAA00449C93 /* ImageItemCell.swift */,
+				F48CC1BC281D246500449C93 /* BlurHashDecode.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F48CC1B9281D1C6F00449C93 /* DataClass */ = {
+			isa = PBXGroup;
+			children = (
+				F48CC1BA281D1C8800449C93 /* ImageClass.swift */,
+			);
+			path = DataClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F48CC1AC281D18CE00449C93 /* Build configuration list for PBXNativeTarget "waterfalldemo" */;
 			buildPhases = (
+				06AA819D56A17968D605A189 /* [CP] Check Pods Manifest.lock */,
 				F48CC194281D18CA00449C93 /* Sources */,
 				F48CC195281D18CA00449C93 /* Frameworks */,
 				F48CC196281D18CA00449C93 /* Resources */,
+				91EBD6225414007C92BFBD1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +193,66 @@
 				F48CC1A8281D18CE00449C93 /* LaunchScreen.storyboard in Resources */,
 				F48CC1A5281D18CE00449C93 /* Assets.xcassets in Resources */,
 				F48CC1A3281D18CA00449C93 /* Main.storyboard in Resources */,
+				F48CC1B1281D1AD900449C93 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06AA819D56A17968D605A189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterfalldemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EBD6225414007C92BFBD1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waterfalldemo/Pods-waterfalldemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waterfalldemo/Pods-waterfalldemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-waterfalldemo/Pods-waterfalldemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F48CC194281D18CA00449C93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48CC1A0281D18CA00449C93 /* ViewController.swift in Sources */,
+				F48CC1B6281D1B6500449C93 /* CollectionViewController.swift in Sources */,
 				F48CC19C281D18CA00449C93 /* AppDelegate.swift in Sources */,
+				F48CC1BB281D1C8800449C93 /* ImageClass.swift in Sources */,
+				F48CC1B8281D1BAA00449C93 /* ImageItemCell.swift in Sources */,
 				F48CC19E281D18CA00449C93 /* SceneDelegate.swift in Sources */,
+				F48CC1BD281D246500449C93 /* BlurHashDecode.swift in Sources */,
+				F48CC1B3281D1B0000449C93 /* ReadData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +394,7 @@
 		};
 		F48CC1AD281D18CE00449C93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97727A4BA058FFF2BF5A4DC /* Pods-waterfalldemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +422,7 @@
 		};
 		F48CC1AE281D18CE00449C93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D86F142B4BE62351F42BE7 /* Pods-waterfalldemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

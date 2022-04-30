@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-waterfalldemo/Pods-waterfalldemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
